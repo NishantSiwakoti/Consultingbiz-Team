@@ -356,3 +356,87 @@ button {
   background-position: left;
   color: black;
 }
+
+
+/*By NItesh*/
+
+  
+.teams {
+  background-color: #f7f7f7;
+  height: 120vh;
+}
+.top-content {
+  margin-left: 150px;
+  padding-top: 50px;
+}
+.top-content h5 {
+  color: #ff2a4a;
+  font-size: 20px;
+}
+.top-content h1{
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.image {
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.image img:hover {
+  transform: scale(1.1);
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+.content p {
+  color: #ff2a4a;
+}
+
+/*Services*/
+.red-section {
+  background-color: #ff284a;
+  color: white;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.text {
+  width: 50%;
+  margin-left: 150px;
+  font-size: 30px;
+}
+button {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 16px 30px;
+  width: 200px;
+  border: none;
+  transition: all 0.5s ease-out;
+  color: white;
+  margin-right: 190px;
+}
+.botton {
+  background: linear-gradient(to right, #ffff 50%, #030303 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+.botton:hover {
+  background-position: left;
+  color: black;
+}
