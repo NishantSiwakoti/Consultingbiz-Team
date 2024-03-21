@@ -53,7 +53,8 @@
 .menu {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 18px;
+
 }
 
 .menu a {
@@ -62,11 +63,23 @@
   font-size: 16px;
   font-weight: 400;
   font-family: Poppins, sans-serif;
-  line-height: 24px;
+
+  /* background-color: lightblue;
+  line-height: 24px; */
+
 }
 
 .menu li {
   position: relative;
+
+
+  display: block;
+
+  /* background-color: #030303; */
+
+
+  line-height: 80px;
+  padding: 15px;
 }
 
 .menu li:hover .sub-menu {
@@ -79,18 +92,34 @@
   list-style: none;
   background-color: rgb(13, 45, 62);
   width: 170px;
-  padding: 15px;
-  top: 250%;
-  left: -170%;
+  /* top: 90%; */
+  top: 80%;
+  left: -50%;
   display: none;
+
+  padding: 10px; 
+  margin: 5px 0 0; 
+
+
+
+  z-index: 1000;
 }
+
+/* imp */
+.sub-menu li{
+  line-height: 2px;
+}
+
 
 .sub-menu a {
   color: rgb(253, 253, 253);
   font-weight: 400;
   font-size: 15px;
   font-family: sans-serif;
+
 }
+
+
 
 /* Hero Secion Styling */
 .hero {
@@ -109,7 +138,7 @@
   flex-direction: column;
   padding-left: 150px;
   gap: 25px;
-  padding-top: 225px;
+  padding-top: 250px;
 }
 
 .red-line {
@@ -130,10 +159,11 @@
 
 .text-2 {
   font-family: Sarabun, sans-serif;
-  /* font-size: 71px; */
-  font-size: 40px;
+  font-size: 71px;
+  /* font-size: 40px; */
   color: black;
   font-weight: 800;
+  line-height: 90px;
 }
 
 .text-3 {
@@ -144,9 +174,12 @@
   color: black;
 }
 
+
 .service-btn button {
+  width: fit-content;
+
   color: white;
-  padding: 25px 44px;
+  padding: 25px 50px;
   letter-spacing: 1px;
   border: none;
 
@@ -169,17 +202,23 @@
 }
 
 .left {
-  left: 10px;
+  left: 15px;
 }
 
 .right {
-  right: 0px;
+  right: 15px;
 }
 
 .arrow-container button {
-  padding: 20px;
+  /* padding: 20px; */
   border: 1px solid #a5b3ba;
   background-color: transparent;
+
+  width: 60px;
+  height: 60px;
+
+
+  padding: 1px 1px;
 }
 
 .arrow-container button i {
@@ -200,7 +239,26 @@
   transform: translateX(0);
 }
 
-/*Services Section By Nishant*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Services Section*/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
