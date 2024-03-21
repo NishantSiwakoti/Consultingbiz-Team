@@ -199,3 +199,160 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+/*Services Section*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.services {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+  height: 100vh;
+}
+
+.services-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.underline {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.best {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  flex: 1;
+  margin: 0 10px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  height: 350px;
+  transition: background 0.5s ease-out;
+}
+.box:hover {
+  background: linear-gradient(to top, #ff2143 50%, #fff 50%);
+  background-size: 100% 200%;
+  background-position: bottom;
+  color: #f7f7f7;
+}
+.box:hover i {
+  color: white;
+}
+.box:hover p {
+  color: white;
+}
+.box i {
+  font-size: 48px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: #eb576d;
+}
+
+.box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.box p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 40px;
+}
+
+.best-services {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+}
+
+.left-content {
+  width: 25%;
+  height: 100vh;
+  background-color: #ff2147;
+  position: absolute;
+  left: 0;
+}
+
+.right-content {
+  width: 75%;
+  height: 100%;
+  background-color: #1b4864;
+  position: absolute;
+  right: 0;
+}
+
+.left-content img {
+  width: 600px;
+  height: 600px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  margin-left: 150px;
+  margin-top: 80px;
+}
+.right-content .right-contents {
+  float: right;
+  margin-top: 130px;
+  margin-right: 80px;
+  color: white;
+}
+.right-contents p {
+  color: #cecece;
+  font-size: 18px;
+}
+.right-contents h1 {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 600;
+  margin-top: -5px;
+}
+.right-contents h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 30px;
+}
+.right-contents .desc {
+  color: #cecece;
+  font-size: 16px;
+  line-height: 30px;
+}
+button {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 16px 30px;
+  width: 200px;
+  border: none;
+  transition: all 0.5s ease-out;
+  color: white;
+  background-color: #ff2143;
+}
+.custom-button {
+  background: linear-gradient(to right, #ffff 50%, #ff2143 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+
+.custom-button:hover {
+  background-position: left;
+  color: black;
+}
