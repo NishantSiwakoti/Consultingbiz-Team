@@ -53,7 +53,8 @@
 .menu {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 18px;
+
 }
 
 .menu a {
@@ -62,11 +63,23 @@
   font-size: 16px;
   font-weight: 400;
   font-family: Poppins, sans-serif;
-  line-height: 24px;
+
+  /* background-color: lightblue;
+  line-height: 24px; */
+
 }
 
 .menu li {
   position: relative;
+
+
+  display: block;
+
+  /* background-color: #030303; */
+
+
+  line-height: 80px;
+  padding: 15px;
 }
 
 .menu li:hover .sub-menu {
@@ -79,18 +92,33 @@
   list-style: none;
   background-color: rgb(13, 45, 62);
   width: 170px;
-  padding: 15px;
-  top: 250%;
-  left: -170%;
+  top: 90%;
+  left: -50%;
   display: none;
+
+  padding: 10px; 
+  margin: 5px 0 0; 
+
+
+
+  z-index: 1000;
 }
+
+/* imp */
+.sub-menu li{
+  line-height: 2px;
+}
+
 
 .sub-menu a {
   color: rgb(253, 253, 253);
   font-weight: 400;
   font-size: 15px;
   font-family: sans-serif;
+
 }
+
+
 
 /* Hero Secion Styling */
 .hero {
@@ -199,6 +227,25 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Services Section*/
 body {
