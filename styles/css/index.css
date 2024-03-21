@@ -173,7 +173,7 @@
 }
 
 .right {
-  right: 10px;
+  right: 0px;
 }
 
 .arrow-container button {
@@ -200,20 +200,19 @@
   transform: translateX(0);
 }
 
-/*Services Section*/
+/*Services Section By Nishant*/
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .services {
   background-color: #f7f7f7;
-  padding: 100px 0;
+  padding: 150px 50px;
   height: 100vh;
 }
 
 .services-container {
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -221,11 +220,13 @@ body {
   font-size: 24px;
   margin-bottom: 20px;
   color: red;
+  margin-left: 110px;
 }
 
 .best {
   font-size: 36px;
   margin-bottom: 40px;
+  margin-left: 110px;
 }
 
 .container {
@@ -243,6 +244,7 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   height: 350px;
+  margin-top: 40px;
   transition: background 0.5s ease-out;
 }
 .box:hover {
@@ -276,6 +278,7 @@ body {
   margin-top: 40px;
 }
 
+/*Best Services By Nishant*/
 .best-services {
   width: 100%;
   height: 100vh;
@@ -311,34 +314,37 @@ body {
 .right-content .right-contents {
   float: right;
   margin-top: 130px;
-  margin-right: 80px;
+  margin-right: 100px;
   color: white;
 }
 .right-contents p {
   color: #cecece;
   font-size: 18px;
+  margin-top: 10px;
 }
 .right-contents h1 {
   color: #ffffff;
   font-size: 45px;
   font-weight: 600;
-  margin-top: -5px;
+  margin-top: 20px;
 }
 .right-contents h4 {
   color: #ffffff;
   font-size: 20px;
   font-weight: 100;
   line-height: 30px;
+  margin-top: 30px;
 }
 .right-contents .desc {
   color: #cecece;
   font-size: 16px;
   line-height: 30px;
+  margin-top: 20px;
 }
 button {
   font-size: 15px;
   font-weight: bold;
-  margin-top: 30px;
+  margin-top: 50px;
   padding: 16px 30px;
   width: 200px;
   border: none;
@@ -357,51 +363,47 @@ button {
   color: black;
 }
 
+/*By Nitesh*/
 
-/*By NItesh*/
-
-  
 .teams {
   background-color: #f7f7f7;
-  height: 120vh;
+  height: 100vh;
+  padding: 100px 0;
 }
 .top-content {
   margin-left: 150px;
-  padding-top: 50px;
 }
 .top-content h5 {
   color: #ff2a4a;
   font-size: 20px;
+  margin-bottom: 30px;
 }
-.top-content h1{
+.top-content h1 {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
 .container {
   display: flex;
   align-items: center;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .image {
-  padding: 15px;
+  padding: 10px;
   text-align: center;
-  transition: transform 0.3s ease;
 }
-.image img:hover {
-  transform: scale(1.1);
-}
-
 .image img {
   max-width: 100%;
 }
 
 .content {
   background-color: white;
-  padding: 10px;
+  padding: 30px;
   text-align: center;
 }
 .content p {
+  margin-top: 15px;
   color: #ff2a4a;
 }
 
