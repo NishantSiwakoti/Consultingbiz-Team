@@ -53,7 +53,8 @@
 .menu {
   display: flex;
   list-style: none;
-  gap: 50px;
+  gap: 18px;
+
 }
 
 .menu a {
@@ -62,11 +63,23 @@
   font-size: 16px;
   font-weight: 400;
   font-family: Poppins, sans-serif;
-  line-height: 24px;
+
+  /* background-color: lightblue;
+  line-height: 24px; */
+
 }
 
 .menu li {
   position: relative;
+
+
+  display: block;
+
+  /* background-color: #030303; */
+
+
+  line-height: 80px;
+  padding: 15px;
 }
 
 .menu li:hover .sub-menu {
@@ -79,18 +92,33 @@
   list-style: none;
   background-color: rgb(13, 45, 62);
   width: 170px;
-  padding: 15px;
-  top: 250%;
-  left: -170%;
+  top: 90%;
+  left: -50%;
   display: none;
+
+  padding: 10px; 
+  margin: 5px 0 0; 
+
+
+
+  z-index: 1000;
 }
+
+/* imp */
+.sub-menu li{
+  line-height: 2px;
+}
+
 
 .sub-menu a {
   color: rgb(253, 253, 253);
   font-weight: 400;
   font-size: 15px;
   font-family: sans-serif;
+
 }
+
+
 
 /* Hero Secion Styling */
 .hero {
@@ -199,6 +227,25 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Services Section*/
 body {
@@ -353,6 +400,90 @@ button {
 }
 
 .custom-button:hover {
+  background-position: left;
+  color: black;
+}
+
+
+/*By NItesh*/
+
+  
+.teams {
+  background-color: #f7f7f7;
+  height: 120vh;
+}
+.top-content {
+  margin-left: 150px;
+  padding-top: 50px;
+}
+.top-content h5 {
+  color: #ff2a4a;
+  font-size: 20px;
+}
+.top-content h1{
+  font-size: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+
+.image {
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.image img:hover {
+  transform: scale(1.1);
+}
+
+.image img {
+  max-width: 100%;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+.content p {
+  color: #ff2a4a;
+}
+
+/*Services*/
+.red-section {
+  background-color: #ff284a;
+  color: white;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.text {
+  width: 50%;
+  margin-left: 150px;
+  font-size: 30px;
+}
+button {
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 16px 30px;
+  width: 200px;
+  border: none;
+  transition: all 0.5s ease-out;
+  color: white;
+  margin-right: 190px;
+}
+.botton {
+  background: linear-gradient(to right, #ffff 50%, #030303 50%);
+  background-size: 200% 100%;
+  background-position: right;
+}
+.botton:hover {
   background-position: left;
   color: black;
 }
